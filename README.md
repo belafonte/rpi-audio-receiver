@@ -53,7 +53,7 @@ dtoverlay=iqaudio-dacplus,unmute_amp
 or
 dtoverlay=iqaudio-dacplus,auto_mute_amp
 
-for my amp
+for my amp, i took the first one
 ```
 
 To enable the software volume mixer, `/etc/asound.conf` needs to be created:
@@ -125,7 +125,7 @@ When an external audio device (HDMI, USB, I2S) is used, the internal audio can b
 dtoverlay=disable-bt
 dtparam=audio=off
 dtoverlay=vc4-kms-v3d,noaudio
-dtoverlay=hifiberry-dacplus
+dtoverlay=iqaudio-dacplus,unmute_amp
 ```
 
 ### Add Bluetooth devices
