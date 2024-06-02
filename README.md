@@ -48,6 +48,12 @@ When using a HiFiBerry or similar I2C device, a device tree overlay needs to be 
 ```
 ...
 dtoverlay=hifiberry-dacplus
+
+dtoverlay=iqaudio-dacplus,unmute_amp
+or
+dtoverlay=iqaudio-dacplus,auto_mute_amp
+
+for my amp
 ```
 
 To enable the software volume mixer, `/etc/asound.conf` needs to be created:
